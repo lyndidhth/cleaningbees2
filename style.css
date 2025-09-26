@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef1f0;
+  color: #333;
+}
+
+.enquiry-wrapper {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.enquiry-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.enquiry-header h1 {
+  font-size: 40px;
+  color: #2e7d32;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.enquiry-header p {
+  font-size: 18px;
+  color: #555;
+}
+
+.enquiry-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.enquiry-form input:focus,
+.enquiry-form textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.enquiry-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enquiry-form button:hover {
+  background-color: #388e3c;
+}
+
+.enquiry-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 20px;
+}
+
+.detail-box {
+  flex: 1 1 250px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.detail-box:hover {
+  transform: translateY(-5px);
+}
+
+.detail-box i {
+  font-size: 36px;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.detail-box h3 {
+  color: #4caf50;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.detail-box p {
+  font-size: 14px;
+  color: #666;
+}

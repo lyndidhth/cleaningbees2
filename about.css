@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0d0d0d;
+    color: #f9f9f9;
+    line-height: 1.6;
+    
+}
+body {
+    background-image: url(images/bubbles.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #001f33, #00334d);
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #0d0d0d;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #ffd633;
+}
+
+.skills {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.skills h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #ffcc00;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.bar {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.fill {
+    background-color: #ffcc00;
+    height: 100%;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+}
+
+.stat {
+    text-align: center;
+    margin: 20px;
+}
+
+.stat strong {
+    font-size: 2em;
+    color: #ffcc00;
+}
+
+.stat span {
+    display: block;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.ready {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #002233;
+}
+
+.ready h2 {
+    font-size: 1.8em;
+    color: #ffcc00;
+}
+
+footer {
+    background-color: #000;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.5em;
+    color: #ffcc00;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+.socials a {
+    margin: 0 10px;
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: #ffcc00;
+}
